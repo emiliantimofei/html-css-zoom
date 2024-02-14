@@ -16,11 +16,17 @@ body{
     --color-green: green;
     --color-small-bg-grey: grey;
 }
+header{
+    color: var(--color-general-white);
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.container-h{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 .pic-container{
     max-width: 1000px;
     margin: 0 auto;
@@ -28,13 +34,71 @@ body{
 .d-flex{
     display: flex;
 }
+.space-b{
+    justify-content: space-between;
+}
+.gap{
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.justify{
+    justify-content: flex-end;
+}
+.direction{
+    align-content: flex-end;
+}
 .wrap{
     flex-wrap: wrap;
 }
 .id-in{
     color: var(--color-general-white);
     width: calc(100vw / 7);
+    width: 210px;
+    height: 105px;
+    background-image: url(https://picsum.photos/200/300);
 }
+.nav-txt{
+    color: var(--color-general-white);
+}
+.bg-grey{
+    background-color: var(--color-small-bg-grey);
+}
+.pad-mag{
+    padding: 3px;
+    margin: 5px;
+}
+.radius{
+    border-radius: 2px ;
+}
+.align-right{
+    text-align: right;
+}
+.margin-header{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+footer{
+    background-color: var(--color-small-bg-grey);
+    height: 65px;
+    padding: 6px;
+}
+.center{
+    align-items: center;
+}
+.just-c{
+    justify-content: center;
+}
+.dir{
+    flex-direction: column;
+}
+.margin-footer{
+    margin-left: 4px;
+    margin-right: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
 
 
 
