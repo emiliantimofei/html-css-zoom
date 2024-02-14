@@ -15,6 +15,8 @@ body{
     --color-general-white: white;
     --color-green: green;
     --color-small-bg-grey: grey;
+    --color-greier-nav: rgba(128, 128, 128, 0.162);
+    --color-red-foot: red;
 }
 header{
     color: var(--color-general-white);
@@ -25,10 +27,6 @@ header{
 }
 .container-h{
     max-width: 1400px;
-    margin: 0 auto;
-}
-.pic-container{
-    max-width: 1000px;
     margin: 0 auto;
 }
 .d-flex{
@@ -78,7 +76,8 @@ header{
     margin-top: 15px;
 }
 footer{
-    background-color: var(--color-small-bg-grey);
+    background-color: var(--color-greier-nav);
+    color: var(--color-general-white);
     height: 65px;
     padding: 6px;
 }
@@ -96,6 +95,16 @@ footer{
     margin-right: 6px;
     margin-top: 4px;
     margin-bottom: 4px;
+}
+.exeption{
+    color: var(--color-green);
+}
+.end{
+    color: var(--color-red-foot);
+    background-color: var(--color-greier-nav);
+}
+.size-txt{
+    font-size: 12px;
 }
 
 
