@@ -1,3 +1,4 @@
+/*general*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +22,13 @@ body{
 header{
     color: var(--color-general-white);
 }
+footer{
+    background-color: var(--color-greier-nav);
+    color: var(--color-general-white);
+    height: 65px;
+    padding: 6px;
+}
+/*containers*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -29,6 +37,7 @@ header{
     max-width: 1400px;
     margin: 0 auto;
 }
+/*flex*/
 .d-flex{
     display: flex;
 }
@@ -48,6 +57,16 @@ header{
 .wrap{
     flex-wrap: wrap;
 }
+.center{
+    align-items: center;
+}
+.just-c{
+    justify-content: center;
+}
+.dir{
+    flex-direction: column;
+}
+/*main*/
 .id-in{
     color: var(--color-general-white);
     width: calc(100vw / 7);
@@ -55,6 +74,8 @@ header{
     height: 105px;
     background-image: url(https://picsum.photos/200/300);
 }
+
+/*other*/
 .nav-txt{
     color: var(--color-general-white);
 }
@@ -74,21 +95,6 @@ header{
 .margin-header{
     margin-bottom: 15px;
     margin-top: 15px;
-}
-footer{
-    background-color: var(--color-greier-nav);
-    color: var(--color-general-white);
-    height: 65px;
-    padding: 6px;
-}
-.center{
-    align-items: center;
-}
-.just-c{
-    justify-content: center;
-}
-.dir{
-    flex-direction: column;
 }
 .margin-footer{
     margin-left: 4px;
