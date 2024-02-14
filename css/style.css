@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color-general-black);
+}
+:root{
+    --color-general-black: black;
+    --color-general-white: white;
+    --color-green: green;
+    --color-small-bg-grey: grey;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pic-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.id-in{
+    color: var(--color-general-white);
+    width: calc(100vw / 7);
+}
+
+
+
